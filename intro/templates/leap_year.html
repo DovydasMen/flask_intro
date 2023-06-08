@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>All leap years starting from 1900 ending 2100<h1>
+    {%i = 1900%}
+    {%while i < 2100%}
+    {%i+=4%}
+    <p>{{i}}</p>
+    {%while}
+{% endblock %}
